@@ -1,0 +1,61 @@
+
+.profile-container {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+
+  .profile-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin: 10px 0;
+  }
+  
+
+  .quote-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .age-hidden-message {
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+  .age-visible-message {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+  .toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  

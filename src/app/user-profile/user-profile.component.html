@@ -1,0 +1,17 @@
+<div class="profile-container">
+    <img class="profile-image" [src]="user.photo" alt="User photo" />
+
+    <p class="quote">{{ user.quote }}</p>
+    <h3>Change the quote:</h3>
+    <input class="quote-input" type="text" [(ngModel)]="user.quote" />
+
+    <p *ngIf="!user.isAgeVisible" class="age-hidden-message">The age is hidden</p>
+    <p *ngIf="user.isAgeVisible" class="age-visible-message">The age is {{ user.age }}</p>
+
+
+
+    <p>Name: {{ user.name }}</p>
+    <p>First Name: {{ user.firstName }}</p>
+
+    <button class="toggle-button" (click)="user.isAgeVisible = !user.isAgeVisible">Show/Hide age</button>
+</div>
